@@ -1,13 +1,14 @@
 # gitEx
 🖍 git, github 공부하는 리퍼지토리
 
+## git branch 연결하기
 ### velog에서 보기 👇
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=55soup&slug=git-리퍼지토리-재연결)](https://github.com/eungyeole/velog-readme-stats)
 
-
-### git branch 연결하기
 ### 리퍼지토리 연결 확인
-> git remote -v
+```git
+git remote -v
+```  
 
 현재 리퍼지토리 어디에 연결되어있는지 확인한다.
 연결되어있는게 없다면 아무것도 출력되지 않고,
@@ -17,23 +18,28 @@
 <br>
 <br>
 ### 리퍼지토리 연결 끊기
-> git remote remove origin
+```git
+git remote remove origin
+```
+<br>
+<br>
 
 내 분기이름은 origin이어서 다음과 같이 끊었다. 
 **끊은 후 git remote -v로 확인!**
-<br>
-<br>
 
 
 ### 리퍼지토리 재연결
->git remote add origin [링크]
-
-![](https://velog.velcdn.com/images/55soup/post/ecee48a5-66b9-4fcc-884c-044ebf35e221/image.png)  
-#
-링크부분은 리퍼지토리를 들어갔을 때 다음 링크를 붙여넣으면 된다.
+```git
+git remote add origin [링크]
+```  
 <br>
-
-![](https://velog.velcdn.com/images/55soup/post/55232097-0edb-487b-8747-4eede062511a/image.png)
+<br>
+### 연결 확인하기
+![](https://velog.velcdn.com/images/55soup/post/ecee48a5-66b9-4fcc-884c-044ebf35e221/image.png)  
+링크부분은 리퍼지토리를 들어갔을 때 다음 링크를 붙여넣으면 된다.  
+<br>
+<br>
+![](https://velog.velcdn.com/images/55soup/post/55232097-0edb-487b-8747-4eede062511a/image.png)  
 잘 연결된 모습이다.
 
 
