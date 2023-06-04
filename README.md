@@ -44,3 +44,5 @@ git remote add origin [링크]
 
 ### 참고하기! 
 [원숭이에게 배우는 git](https://backlog.com/git-tutorial/kr/)
+
+이슈 가져오기
